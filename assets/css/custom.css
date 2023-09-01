@@ -1,0 +1,23 @@
+#one {
+    color: #e3d6cc;
+}
+
+/* #two {
+    color: #666;
+} */
+
+
+/* Intro Legibility */
+.text-pop	{
+	/* backdrop-filter: blur(5px); */
+	background-color: rgba(12, 13, 14, 0.567);
+}
+
+
+/* Headshot */
+#sidebar .inner img.headshot {
+    display: block;
+    max-width: 185px;
+    margin: 0 auto 50px;
+    border-radius: 50%;
+}
