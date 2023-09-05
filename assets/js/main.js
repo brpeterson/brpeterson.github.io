@@ -186,5 +186,25 @@
 
 				}
 			});
+	// CUSTOM: "Expand Details" functionality
+		$(document).ready(function() {
+			$('.verbosity-toggle').on('click', function(e) {
+				e.preventDefault(); // Prevent the default action of the link
+				var $this = $(this);
+				var $verboseText = $this.prev('.verbose-text');
+				var $conciseText = $this.prevAll('.concise-text');
+				
+				// Toggle display for concise and verbose texts
+				$conciseText.toggle();
+				$verboseText.toggle();
+
+				// Toggle link text between "Expand Details" and "Collapse Details"
+				if ($verboseText.is(':visible')) {
+					$this.text('More Concise');
+				} else {
+					$this.text('More Detail');
+				}
+			});
+		});
 
 })(jQuery);
