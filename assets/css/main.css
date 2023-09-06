@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+
 
 /*
 	Hyperspace by HTML5 UP
@@ -2499,7 +2499,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 6 Free';
 			font-weight: 400;
 		}
 
@@ -2552,7 +2552,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #af0ea9;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
