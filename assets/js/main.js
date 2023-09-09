@@ -1,7 +1,6 @@
 /*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Based on Hyperspace by HTML5 UP | html5up.net | @ajlkn
+	Modified and expanded by Brad Peterson within personal and commercial use rights under the CCA 3.0 license (html5up.net/license)
 */
 
 (function($) {
@@ -186,7 +185,7 @@
 
 				}
 			});
-	// CUSTOM: "Expand Details" functionality
+	// CUSTOM FUNCTION: "Expand Details" functionality
 		$(document).ready(function() {
 			$('.verbosity-toggle').on('click', function(e) {
 				e.preventDefault(); // Prevent the default action of the link
