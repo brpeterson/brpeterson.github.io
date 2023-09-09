@@ -30,8 +30,17 @@ Space Dust: #28394B
 #sidebar .inner img.headshot {
     display: block;
     max-width: 185px;
-    margin: 9px 50px;
+	@media screen and (max-width: 1280px) {
+    	margin: 9px 50px;
+	}
     border-radius: 50%;
+}
+
+/* Helps center the headshot better */
+#sidebar	{
+	@media screen and (min-width: 1280px) {
+		padding: 2.5em 2.5em 1.5em 3.5em
+	}
 }
 
 
@@ -59,6 +68,6 @@ Space Dust: #28394B
     padding: 0;
     overflow: hidden;
     width: 100%;
-    height: 62vh; /* Sets the iframe's height to 59% of the viewport's height. Seems to look best. */
+    height: 65vh; /* Sets the iframe's height to 59% of the viewport's height. Seems to look best. */
     border: none; /* This removes the default border around iframes. */
 }
