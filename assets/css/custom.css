@@ -43,6 +43,55 @@ Space Dust (gray): #28394B
 	}
 }
 
+/* Styling for the social icons at the bottom */
+.social-icons {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+.social-icons li {
+	text-align: center;
+	margin:0.8em;
+}
+
+/* Icon size */
+.social-icons .icon {
+	font-size: 2em;
+	transition: color 0.3s;
+}
+/* Text size */
+.social-icons .icon .icon-text	{
+	font-size: 0.45em;
+}
+
+.social-icons .icon:hover {
+	color: #777;
+}
+.social-icons span {
+	display: block;
+}
+/* Individual icon colorings */
+.github-icon {
+    color: #444;
+}
+.youtube-icon {
+    color: #FF0000;
+}
+.linkedin-icon {
+    color: #0077B5;
+}
+.github-icon:hover {
+    color: #555;
+}
+.youtube-icon:hover {
+    color: #DD0000;
+}
+.linkedin-icon:hover {
+    color: #005B8E;
+}
+
+
+
 
 /* p5 Project Page */
 #p5iframe {
