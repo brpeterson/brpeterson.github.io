@@ -1,3 +1,11 @@
+/* Custom color scheme, based on Rho Infinity Edit:
+Deep Space Blue: #011330
+Blue Starlight: #0F6098
+Heavenly Light: #E4D3C9
+Fiery Core: #74567C
+Space Dust: #28394B
+*/
+
 #intro 	p {
     margin: 0 0 .8em 0;
 }
@@ -24,4 +32,33 @@
     max-width: 185px;
     margin: 9px 50px;
     border-radius: 50%;
+}
+
+
+/* p5 Project Page */
+#p5iframe {
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 59vh; /* Sets the iframe's height to 59% of the viewport's height. Seems to look best. */
+    border: none; /* This removes the default border around iframes. */
+}
+
+#p5floweriframe {
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 53vh; /* Sets the iframe's height to 59% of the viewport's height. Seems to look best. */
+    border: none; /* This removes the default border around iframes. */
+}
+
+#p5balliframe {
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 62vh; /* Sets the iframe's height to 59% of the viewport's height. Seems to look best. */
+    border: none; /* This removes the default border around iframes. */
 }
