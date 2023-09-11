@@ -48,10 +48,12 @@ Space Dust (gray): #28394B
 	display: flex;
 	justify-content: space-around;
 	list-style-type: none;
+	padding-left: 0;
 }
 .social-icons li {
 	text-align: center;
 	margin:0.8em;
+	padding-left: 0;
 }
 
 /* Icon size */
@@ -99,7 +101,7 @@ Space Dust (gray): #28394B
     padding: 0;
     overflow: hidden;
     width: 100%;
-    height: 59vh; /* Sets the iframe's height to 59% of the viewport's height. Seems to look best. */
+    height: 730px;
     border: none;
 }
 
@@ -108,7 +110,7 @@ Space Dust (gray): #28394B
     padding: 0;
     overflow: hidden;
     width: 100%;
-    height: 53vh; /* Sets the iframe's height to 53% of the viewport's height. Seems to look best. */
+    height: 690px;
     border: none;
 }
 
@@ -117,6 +119,6 @@ Space Dust (gray): #28394B
     padding: 0;
     overflow: hidden;
     width: 100%;
-    height: 65vh; /* Sets the iframe's height to 65% of the viewport's height. Seems to look best. */
+    height: 825px;
     border: none;
 }
