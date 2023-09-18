@@ -36,23 +36,27 @@
 							<h1 class="major">Local Light Pollution Analysis</h1>
 							<span class="image fit"><img src="images/local-LP-map_screenshot.JPG" alt="" /></span>
 							<h3>Background:</h3>
-							An astronomy class at Eastern Arizona College (EAC) was a transformative experience for me. It wasn't just the splendor of the pristine night skies (though that <em>was</em> an incredible experience for a budding astrophotographer like myself). It was my immersion into the world of stars--learning their names, their histories, their roles in human progress over thousands of years--that gave me a profound appreciation that has morphed into a deep passion in the time since. 
+							An astronomy class at Eastern Arizona College (EAC) was a transformative experience for me. It wasn't just the beautiful, pristine night skies (though that <em>was</em> an incredible experience for a beginning astrophotographer like myself). It was my immersion into the world of stars--into their names, their histories, their roles in human progress over thousands of years--that gave me a profound appreciation that has evolved into a deep passion in the time since.
 							
-							When I returned to the urban sprawl of the Phoenix metro, my new hobby of astrophotography proved near impossible due to the thick veil of light pollution. And while we're very lucky here in Arizona to have vast stretches of darkness with the kinds of skies our ancestors enjoyed, I soon became aware that these areas are rapidly shrinking, and the skies I wanted to capture on camera were fading.</p>
+							When I returned to the urban sprawl of the Phoenix metro, my new hobby of astrophotography proved near impossible due to the thick veil of light pollution. And while we're very lucky here in Arizona to have vast wild areas with the kinds of skies our ancestors enjoyed, I soon became aware that these areas are rapidly shrinking, and the skies I wanted to capture on camera were fading.</p>
 							
 							<h3>Advocacy and Project Inspiration:</h3>
 							<p>Recognizing the urgency of preserving our night skies, I joined DarkSky International, the leading light pollution advocacy organization in the world, as a delegate for the East-Valley. Through DarkSky, I was able to connect with a leading light pollution researcher and fellow member. Discussions with them regarding their recent work on light pollution monitoring solidified the scientific foundation of this project: the collection, analysis, and visualization of regional zenith sky image data for the purpose of better understanding the light pollution situation in Arizona.</p>
+
 							<h3>Technical Aspects:</h3>
 							<ul>
-								<li>I collected 3,200+ zenith sky brightness samples across central AZ, creating a comprehensive initial coverage of much of the region's light pollution characteristics.</li>
-								<li>Modified <a href="https://imagej.net/ij/docs/intro.html">ImageJ</a> scripts to methodically process raw images, extracting average brightness values from multiple channels.</li> <li>I extracted significant image metadata such as location and camera brightness estimates using <a href="https://exiftool.org/">exiftool</a> for in-depth analysis.</li>
+								<li>I collected 3,200+ zenith sky brightness samples across central AZ, creating comprehensive coverage of the region's light pollution characteristics.</li>
+								<li>Modified <a href="https://imagej.net/ij/docs/intro.html">ImageJ</a> scripts to methodically process raw images, extracting linear average brightness values in multiple channels.</li> 
+								<li>Extracted significant image metadata such as geolocation and camera brightness estimates using <a href="https://exiftool.org/">exiftool</a> for in-depth analysis.</li>
 								<li>Conducted linear regression analyses on brightness values, integrating them with population and intersection density datasets. This analysis pinpointed anomalous light patterns within the Phoenix metro.</li>
 								<li>Deployed clustering techniques such as k-means and DBSCAN, optimizing cluster count with the elbow method. This facilitated the classification of samples by several factors such as RGB ratios and intensity values.</li>
 								<li>Leveraged Keras to further classify measurements based on distinct RGB ratios and inherent brightness values, allowing for the differentiation and comparison of various lighting styles prevalent across Arizona.</li>
 								<li>Employed Python for data visualization and QGIS for the generation of interpolated maps, effectively visualizing a variety of lighting strategies among cities and neighborhoods.</li>
+								<li>Gained experience with a variety of tools and techniques along the way, such as error calculation, calibration and conversion, and linear and non-linear modeling.</li>
 							</ul>
+							
 							<h3>Outcome:</h3>
-							<p>Through my research, I've been able to pinpoint specific areas within the Phoenix metro with anomalous light pollution patterns--both those of greater and lesser impact on the night sky. These findings have been instrumental in offering recommendations to local city councils, such as Tempe's. My findings have been well-received, helping municipalities understand the relationship between their respective lighting strategies and corresponding impact on the night sky, and influencing language and city objectives.</p>
+							<p>Through my research, I've been able to pinpoint specific areas within the Phoenix metro with anomalous light pollution patterns--both those of greater and lesser impact on the night sky. I've characterized a variety of sky-brightness situations, corresponding with local lighting implementations. These findings have been instrumental in providing insights to local city councils, such as Tempe's. My findings have been well-received, helping municipalities understand the relationship between their respective lighting strategies and corresponding impact on the night sky, and influencing policy language and city objectives.</p>
 								
 							<h3>Future Direction:</h3>
 							<p>Data collection is continuous and ongoing, and I aim to both analyze changes over time in areas with existing data as well as expand this research to other regions in Arizona, employing newer data analysis techniques as I learn them.</p>
