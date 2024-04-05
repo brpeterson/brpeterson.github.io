@@ -30,11 +30,12 @@ Space Dust (gray): #28394B
 #sidebar .inner img.headshot {
     display: block;
     max-width: 185px;
+    padding: 1em 0 1em;
 	@media screen and (max-width: 1280px) {
     	margin: 9px 50px;
+        padding: 0
 	}
     border-radius: 50%;
-    padding-bottom: 1em;
 }
 
 /* Helps center the headshot better */
