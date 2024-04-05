@@ -34,6 +34,7 @@ Space Dust (gray): #28394B
     	margin: 9px 50px;
 	}
     border-radius: 50%;
+    padding-bottom: 1em;
 }
 
 /* Helps center the headshot better */
